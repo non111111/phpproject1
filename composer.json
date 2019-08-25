@@ -1,0 +1,32 @@
+{
+    "name": "non111111/phpproject1",
+    "authors": [
+        {
+            "name": "Non One",
+            "email": "non_111111@hotmail.com"
+        }
+    ],
+    "repositories":[ 
+        {
+            "type":"vcs",
+"url": "https://github.com/non111111/phpencryptedtest"       
+        },
+        {
+            "type":"vcs",
+"url": "https://github.com/non111111/phpexetest"       
+        },
+        {
+            "type":"vcs",
+"url": "https://github.com/non111111/phpeicartest"       
+        }
+     ],
+    "require": 
+        {
+		  "monolog/monolog": "*",
+		  "symfony/dependency-injection":"3.4.25",
+             "non111111/phpencryptedtest": "*",
+		  "non111111/phpexetest": "*",
+             "non111111/phpeicartest": "*"
+        },
+    "minimum-stability": "dev"
+}
