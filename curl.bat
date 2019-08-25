@@ -1,1 +1,0 @@
-C:\Windows\System32\curl.exe https://security.symfony.com/check_lock
